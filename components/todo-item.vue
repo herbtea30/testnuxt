@@ -4,13 +4,6 @@
 
 <script>
 export default {
-  props: {
-    todo: {
-      type: Function,
-      default: () => {},
-    },
-  },
+  props: ['todo'],
 }
 </script>
-
-<style></style>
